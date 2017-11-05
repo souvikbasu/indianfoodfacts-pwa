@@ -1,6 +1,10 @@
+<mat-toolbar>Indian Food Facts</mat-toolbar>
+
 <mat-form-field class="search-box">
   <input matInput placeholder="Search food" (keyup.enter)="search()" [(ngModel)]="searchText">
 </mat-form-field>
 
 <food-item *ngFor="let food of foods" [food]="food" ></food-item>
 
+<div>Thanks to members of the S.Q.U.A.T.S. group in facebook who provided all nutritional facts. For more details about S.Q.U.A.T.S. go to squats.in</div>
+<div>Want to improve the site? <a href="https://github.com/souvikbasu/indianfoodfacts-pwa">Github</a></div>
