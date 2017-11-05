@@ -3,7 +3,7 @@ export class Food {
   public name: string;
   public quantity: number;
   public unit: string;
-  public fatInGrams: number;
+  public fatInGm: number;
   public carbInGm: number;
   public fiberInGm: number;
   public netCarbsInGm: number;
