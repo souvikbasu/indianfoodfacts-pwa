@@ -10,7 +10,7 @@ import {FoodService} from "../services/food.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private foods: Food[];
+  public foods: Food[];
 
   constructor(private foodService: FoodService) {
     foodService.getAllFood(20)
