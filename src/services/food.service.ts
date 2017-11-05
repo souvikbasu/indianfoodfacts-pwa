@@ -10,7 +10,7 @@ import {Food} from "../models/food";
 @Injectable()
 export class FoodService {
 
-  private foodApi = 'http://indianfoodfacts-api.herokuapp.com';
+  private foodApi = 'https://indianfoodfacts-api.herokuapp.com';
 
   constructor(private http: Http) { }
 
