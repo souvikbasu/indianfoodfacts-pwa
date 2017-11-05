@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {Observable} from "rxjs/Observable";
 
 import {Food} from "../models/food";
 import {FoodService} from "../services/food.service";

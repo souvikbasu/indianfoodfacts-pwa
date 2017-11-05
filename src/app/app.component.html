@@ -1,7 +1,6 @@
+<mat-form-field class="search-box">
+  <input matInput placeholder="Search food" (keyup.enter)="search()" [(ngModel)]="searchText">
+</mat-form-field>
 
-  <mat-form-field class="search-box">
-    <input matInput placeholder="Search food" (keyup.enter)="search()" [(ngModel)]="searchText"  >
-  </mat-form-field>
-
-<div *ngFor="let food of foods"  >{{ food.name }}</div>
+<food-item *ngFor="let food of foods" [food]="food" ></food-item>
 

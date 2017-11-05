@@ -7,10 +7,12 @@ import {MatButtonModule, MatCheckboxModule, MatInputModule} from '@angular/mater
 
 import {AppComponent} from './app.component';
 import {FoodService} from "../services/food.service";
+import { FoodItemComponent } from '../components/food-item/food-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FoodItemComponent
   ],
   imports: [
     BrowserModule,

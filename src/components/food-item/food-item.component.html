@@ -1,0 +1,49 @@
+<h2>{{ food.name }}</h2>
+<h3 class="quantity">{{ food.quantity }} {{ food.unit }}</h3>
+<table>
+  <tr class="fact-row">
+    <td class="fact-label">Fat (gm)</td>
+    <td class="fact-value">{{ food.fatInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Carb (gm)</td>
+    <td class="fact-value">{{ food.carbInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Fiber (gm)</td>
+    <td class="fact-value">{{ food.fiberInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Net Carbs (gm)</td>
+    <td class="fact-value">{{ food.netCarbsInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Protein (gm)</td>
+    <td class="fact-value">{{ food.proteinInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Alcohol (gms)</td>
+    <td class="fact-value">{{ food.alcoholInGm }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Type of Food</td>
+    <td class="fact-value">{{ food.type }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Category</td>
+    <td class="fact-value">{{ food.category }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Calories</td>
+    <td class="fact-value">{{ food.calories }}</td>
+  </tr>
+  <tr class="fact-row">
+    <td class="fact-label">Contributed by</td>
+    <td class="fact-value">{{ food.author }}</td>
+  </tr>
+  <tr class="fact-row" [ngStyle]="{'display': (food.restaurant ? 'table-row': 'none')}">
+    <td class="fact-label">Restaurant name</td>
+    <td class="fact-value">{{ food.restaurant }}</td>
+  </tr>
+</table>
+

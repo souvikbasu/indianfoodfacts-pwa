@@ -5,3 +5,7 @@
   margin: 0 auto;
   display: block;
 }
+
+.food-row {
+  width: 100%;
+}
