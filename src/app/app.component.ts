@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Observable} from "rxjs/Observable";
+
+import {Food} from "../models/food";
+import {FoodService} from "../services/food.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  private foods: Food[];
+
+  constructor(private foodService: FoodService) {
+    foodService.getAllFood(20)
+      .subscribe(
+        foods => this.foods = foods,
+        err => {
+          console.log(err);
+        });
+  }
 }
