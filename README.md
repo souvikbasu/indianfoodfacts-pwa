@@ -1,7 +1,7 @@
 # indianfoodfacts-web
 Indian Food Facts website (indianfoodfacts.in)
 
-![alt Mobile screenshot](https://github.com/souvikbasu/indianfoodfacts-pwa/mobile-screenshot.png)
+[[https://github.com/souvikbasu/indianfoodfacts-pwa/blob/master/mobile-screenshot.png)]]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
