@@ -9,3 +9,9 @@
 .food-row {
   width: 100%;
 }
+
+.footer {
+  display: block;
+  background-color: lightgray;
+  padding: 10px;
+}
