@@ -3,10 +3,10 @@ import {NgModule} from '@angular/core';
 import {HttpModule, JsonpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule, MatInputModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, MatInputModule, MatToolbarModule, MatCardModule} from '@angular/material';
 
 import {AppComponent} from './app.component';
-import {FoodService} from "../services/food.service";
+import {FoodService} from '../services/food.service';
 import { FoodItemComponent } from '../components/food-item/food-item.component';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { FoodItemComponent } from '../components/food-item/food-item.component';
     HttpModule,
     JsonpModule,
     BrowserAnimationsModule,
-    MatButtonModule, MatCheckboxModule, MatInputModule, MatToolbarModule
+    MatButtonModule, MatCheckboxModule, MatInputModule, MatToolbarModule, MatCardModule
   ],
   providers: [FoodService],
   bootstrap: [AppComponent]
