@@ -1,5 +1,11 @@
 {
- "name": "Indian Food Facts",
+  "name": "Indian Food Facts",
+  "short_name": "Indian Food Facts",
+  "theme_color": "#FFFFFF",
+  "background_color": "#3F51B5",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,10 +43,5 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ],
- "theme_color": "#ffffff",
-  "background_color": "#9E9E9E",
-  "start_url": "index.html",
-  "display": "standalone",
-  "orientation": "portrait"
+ ]
 }

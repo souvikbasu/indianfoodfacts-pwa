@@ -5,11 +5,19 @@
   },
   "apps": [
     {
+      "serviceWorker": true,
       "root": "src",
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "manifest.json",
+        "android-icon-36x36.png",
+        "android-icon-48x48.png",
+        "android-icon-72x72.png",
+        "android-icon-96x96.png",
+        "android-icon-144x144.png",
+        "android-icon-192x192.png"
       ],
       "index": "index.html",
       "main": "main.ts",
